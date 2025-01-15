@@ -44,10 +44,8 @@ The project includes:
 2. **Pull the Prebuilt Docker Image**:
    - Pull the image from Docker Hub:
      ```
-     docker pull <your-docker-id>/fastp_image
+     docker pull alvin8/fastp_image
      ```
-     Replace `<your-docker-id>` with the actual Docker Hub username hosting the image.
-
 3. **Build the Docker Image Locally (Optional)**:
    - If you prefer to build the image locally, navigate to the project directory and run:
      ```
