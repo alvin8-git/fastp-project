@@ -61,11 +61,11 @@ The project includes:
 To download the program files:
 
 1. Clone this repository to your local machine:
-git clone https://github.com/<your-github-username>/fastp-project.git
+```
+git clone https://github.com/alvin8-git/fastp-project.git
 cd fastp-project
+```
 text
-Replace `<your-github-username>` with your GitHub username.
-
 2. Verify that the following files are present in the cloned directory:
 ```
 fastp-project/
