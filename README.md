@@ -1,4 +1,3 @@
-text
 # **Fastp-Project**
 
 This repository contains the `fastp-project`, a pipeline for quality control and preprocessing of FASTQ files using `fastp` and `MultiQC`. The project is designed for ease of use with Docker and includes scripts to streamline the workflow.
@@ -67,6 +66,7 @@ cd fastp-project
 ```
 
 2. Verify that the following files are present in the cloned directory:
+```
 fastp-project/
 ├── docker.sh # Shell script to run the program
 ├── fastp.py # Python script for processing FASTQ files
@@ -75,7 +75,7 @@ fastp-project/
 │ ├── sample1.fq.gz
 │ ├── sample2.fq.gz
 └── README.md # Documentation
-text
+```
 
 ---
 
