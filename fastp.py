@@ -41,6 +41,7 @@ def get_samples_from_file(sample_file):
         return [line.strip() for line in f if line.strip()]
 
 def find_fastq_files(input_folder):
+    input_path = Path(input_folder)
     return glob.glob(str(input_folder / "**/*.fq.gz"), recursive=True)
 
 def check_paired_reads(r1_file, r2_file):
