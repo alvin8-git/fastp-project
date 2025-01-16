@@ -1,4 +1,3 @@
-text
 # **Fastp-Project**
 
 This repository contains the `fastp-project`, a pipeline for quality control and preprocessing of FASTQ files using `fastp` and `MultiQC`. The project is designed for ease of use with Docker and includes scripts to streamline the workflow.
