@@ -67,6 +67,7 @@ cd fastp-project
 ```
 
 2. Verify that the following files are present in the cloned directory:
+```
 fastp-project/
 ├── docker.sh # Shell script to run the program
 ├── fastp.py # Python script for processing FASTQ files
@@ -75,7 +76,7 @@ fastp-project/
 │ ├── sample1.fq.gz
 │ ├── sample2.fq.gz
 └── README.md # Documentation
-text
+```
 
 ---
 
