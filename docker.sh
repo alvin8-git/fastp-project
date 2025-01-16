@@ -52,7 +52,7 @@ docker run --rm \
   -e HOST_UID=$USER_ID \
   -e HOST_GID=$GROUP_ID \
   --user $USER_ID:$GROUP_ID \
-  fastp_image "/data/${DIRECTORY}" \
+  alvin8/fastp_image "/data/${DIRECTORY}" \
   -sample /app/sample.txt \
   -jobs 4 \
   --adapter_fasta /app/MGI_adapters.fasta \
